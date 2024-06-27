@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Interface</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='message.css') }}">
+</head>
+<body>
+
+<div  class="container">
+
+
+    <div class="chat-container">
+<div class="image-container">
+        <img src="{{ url_for('static', filename='logo.png') }}" class="centered-image"></img>
+    </div>
+        <h1 align="center">
+           Welcome to the eMentalHealth.ca Chatbot Experiment
+        </h1>
+
+        <p align="center">
+            This is a demonstration project to test the feasibility of a LLM powered chatbot for our website.
+        </p>
+        <div id="chatbox">
+            <!-- Messages will be displayed here -->
+
+        </div>
+        <input type="text" id="user-input" placeholder="Type a message...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</div>
+<script src="{{ url_for('static', filename='chat.js') }}"></script>
+
+</body>
+</html>
