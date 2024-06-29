@@ -1,1 +1,24 @@
+# Graduate Project: GenAI-Based Mental Health Chatbot
+
+![Project Image](url_to_project_image)
+
+## Overview
+This project implements a GenAI-based chatbot aimed at providing mental health support through natural language interactions. The chatbot leverages OpenAI's language models, vector databases, and Langchain for context-aware responses.
+
+## Features
+- Natural Language Processing (NLP) for understanding user queries.
+- Context-aware responses using vector databases.
+- Integration with Langchain for generating personalized mental health advice.
+
+## Demo
+Explore the demo of the GenAI-based Mental Health Chatbot:
+- **Demo Site:** [GenAI Chatbot Demo](http://99.79.38.194/login)
+- **Credentials:**
+  - **Username:** demo_user
+  - **Password:** 1234
+
+## Installation
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
 
