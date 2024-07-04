@@ -1,7 +1,6 @@
 FROM python:3.9-slim
 
-# Set up environment variables for Python
-
+#Installing c++ dependecy for vector db
 RUN apt-get update && apt-get install -y \
     build-essential \
     g++ \
