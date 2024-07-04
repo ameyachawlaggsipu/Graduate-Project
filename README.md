@@ -10,7 +10,8 @@ This project implements a GenAI-based chatbot aimed at providing mental health s
 
 ## Demo
 Explore the demo of the GenAI-based Mental Health Chatbot:
-- **Demo Site:** [GenAI Chatbot Demo](http://99.79.38.194/login)
+- **Demo Site:** [GenAI Chatbot Demo GCP](https://bot-iprwzorw6a-uc.a.run.app/login)
+- **Demo Site:** [GenAI Chatbot Demo AWS](http://99.79.38.194/login)
 - **Credentials:**
   - **Username:** demo_user
   - **Password:** 1234
