@@ -28,8 +28,7 @@ To set up the project locally, follow these steps:
    pip install -r requirements.txt
 
 3. Set up environment variables:
-- Create a `.env` file in the root directory of the project.
-- Add the following environment variable to the `.env` file:
+- Add the following environment variable:
   ```
   OPENAI_API_KEY=your_openai_api_key
   ```
